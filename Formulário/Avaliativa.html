@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Classificação</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+            margin: 20px 0;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f8f9fa;
+            font-weight: bold;
+            color: #333;
+        }
+        td {
+            color: #555;
+        }
+        tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+        /* Apenas cor para os números da esquerda */
+        .pos-1 { color: #0066cc; font-weight: bold; }
+        .pos-2 { color: #0066cc; font-weight: bold; }
+        .pos-3 { color: #0066cc; font-weight: bold; }
+        .pos-4 { color: #4c8fd1; font-weight: bold; }
+        .pos-5 { color: rgb(204, 204, 51); font-weight: bold;}
+        .pos-6 { color: rgb(204, 204, 51); font-weight: bold;}
+        .pos-7 { color: rgb(204, 204, 51); font-weight: bold;}
+        .pos-8 { color: rgb(204, 204, 51); font-weight: bold;}
+        .pos-9 { color: rgb(204, 204, 51); font-weight: bold;}
+        .pos-10 { color: rgb(204, 204, 51); font-weight: bold;}
+        .pos-11 { color: rgb(204, 204, 51); font-weight: bold;}
+        .pos-12 { color: rgb(204, 204, 51);font-weight: bold;}
+        .pos-13 { color: rgb(177, 177, 177);font-weight: bold;}
+        .pos-14 { color: rgb(177, 177, 177);font-weight: bold;}
+        .pos-15 { color: rgb(177, 177, 177);font-weight: bold;}
+        .pos-16 { color: rgb(177, 177, 177);font-weight: bold;}
+        .pos-17 { color: red;font-weight: bold;}
+        .pos-18 { color: red; font-weight: bold;}
+        .pos-19 {color: red;font-weight: bold;}
+        .pos-20 {color: red;font-weight: bold;}{
+    
+        }
+    </style>
+</head>
+<body>
+
+<h1>Tabela de Classificação</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>Clube</th>
+            <th>P</th>
+            <th>J</th>
+            <th>V</th>
+            <th>E</th>
+            <th>D</th>
+            <th>GP</th>
+            <th>GC</th>
+            <th>SG</th>
+            <th>%</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="pos-1">1</td>
+            <td>Corinthians</td>
+            <td>17</td>
+            <td>7</td>
+            <td>5</td>
+            <td>2</td>
+            <td>0</td>
+            <td>15</td>
+            <td>8</td>
+            <td>7</td>
+            <td>81</td>
+        </tr>
+        <tr>
+            <td class="pos-2">2</td>
+            <td>Ceará</td>
+            <td>17</td>
+            <td>7</td>
+            <td>5</td>
+            <td>2</td>
+            <td>0</td>
+            <td>7</td>
+            <td>1</td>
+            <td>6</td>
+            <td>81</td>
+        </tr>
+        <tr>
+            <td class="pos-3">3</td>
+            <td>Fluminense</td>
+            <td>15</td>
+            <td>7</td>
+            <td>5</td>
+            <td>0</td>
+            <td>2</td>
+            <td>11</td>
+            <td>5</td>
+            <td>6</td>
+            <td>71.4</td>
+        </tr>
+        <tr>
+            <td class="pos-4">4</td>
+            <td>Santos</td>
+            <td>12</td>
+            <td>7</td>
+            <td>3</td>
+            <td>3</td>
+            <td>1</td>
+            <td>15</td>
+            <td>10</td>
+            <td>5</td>
+            <td>57.1</td>
+        </tr>
+        <tr>
+            <td class="pos-5">5</td>
+            <td>São Paulo</td>
+            <td>11</td>
+            <td>7</td>
+            <td>3</td>
+            <td>2</td>
+            <td>2</td>
+            <td>9</td>
+            <td>6</td>
+            <td>3</td>
+            <td>52.4</td>
+        </tr>
+        <tr>
+            <td class="pos-6">6</td>
+            <td>Goiás</td>
+            <td>10</td>
+            <td>7</td>
+            <td>3</td>
+            <td>1</td>
+            <td>3</td>
+            <td>9</td>
+            <td>10</td>
+            <td>-1</td>
+            <td>47.6</td>
+        </tr>
+        <tr>
+            <td class="pos-7">7</td>
+            <td>Botafogo</td>
+            <td>9</td>
+            <td>7</td>
+            <td>2</td>
+            <td>3</td>
+            <td>2</td>
+            <td>13</td>
+            <td>11</td>
+            <td>2</td>
+            <td>42.9</td>
+        </tr>
+        <tr>
+            <td class="pos-8">8</td>
+            <td>Flamengo</td>
+            <td>9</td>
+            <td>7</td>
+            <td>2</td>
+            <td>3</td>
+            <td>2</td>
+            <td>9</td>
+            <td>8</td>
+            <td>1</td>
+            <td>42.9</td>
+        </tr>
+        <tr>
+            <td class="pos-9">9</td>
+            <td>Cruzeiro</td>
+            <td>9</td>
+            <td>6</td>
+            <td>2</td>
+            <td>3</td>
+            <td>1</td>
+            <td>7</td>
+            <td>6</td>
+            <td>1</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td class="pos-10">10</td>
+            <td>Guarani</td>
+            <td>9</td>
+            <td>6</td>
+            <td>2</td>
+            <td>3</td>
+            <td>1</td>
+            <td>7</td>
+            <td>7</td>
+            <td>0</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td class="pos-11">11</td>
+            <td>Palmeiras</td>
+            <td>8</td>
+            <td>6</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>5</td>
+            <td>4</td>
+            <td>1</td>
+            <td>44.4</td>
+        </tr>
+        <tr>
+            <td class="pos-12">12</td>
+            <td>Grêmio</td>
+            <td>8</td>
+            <td>7</td>
+            <td>2</td>
+            <td>2</td>
+            <td>3</td>
+            <td>10</td>
+            <td>11</td>
+            <td>-1</td>
+            <td>38.1</td>
+        </tr>
+        <tr>
+            <td class="pos-13">13</td>
+            <td>Avaí</td>
+            <td>8</td>
+            <td>7</td>
+            <td>2</td>
+            <td>2</td>
+            <td>3</td>
+            <td>10</td>
+            <td>11</td>
+            <td>-1</td>
+            <td>38.1</td>
+        </tr>
+        <tr>
+            <td class="pos-14">14</td>
+            <td>Vitória</td>
+            <td>8</td>
+            <td>7</td>
+            <td>2</td>
+            <td>2</td>
+            <td>3</td>
+            <td>7</td>
+            <td>8</td>
+            <td>-1</td>
+            <td>38.1</td>
+        </tr
+        <tr>
+            <td class="pos-15">15</td>
+            <td>Prudente</td>
+            <td>8</td>
+            <td>6</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>9</td>
+            <td>11</td>
+            <td>-2</td>
+            <td>44.4</td>
+        </tr>
+        <tr>
+            <td class="pos-16">16</td>
+            <td>Atlético-PR</td>
+            <td>7</td>
+            <td>7</td>
+            <td>2</td>
+            <td>1</td>
+            <td>4</td>
+            <td>10</td>
+            <td>15</td>
+            <td>-5</td>
+            <td>33.3</td>
+        </tr>
+        <tr>
+            <td class="pos-17">17</td>
+            <td>Internacional</td>
+            <td>6</td>
+            <td>6</td>
+            <td>2</td>
+            <td>0</td>
+            <td>4</td>
+            <td>10</td>
+            <td>15</td>
+            <td>-5</td>
+            <td>33.3</td>
+        </tr>
+        <tr>
+            <td class="pos-18">18</td>
+            <td>Atlético-MG</td>
+            <td>6</td>
+            <td>7</td>
+            <td>2</td>
+            <td>0</td>
+            <td>5</td>
+            <td>10</td>
+            <td>16</td>
+            <td>-6</td>
+            <td>28.6</td>
+        </tr>
+        <tr></tr>
+            <td class="pos-19">19</td>
+            <td>Vasco</td>
+            <td>5</td>
+            <td>7</td>
+            <td>1</td>
+            <td>2</td>
+            <td>4</td>
+            <td>5</td>
+            <td>12</td>
+            <td>-7</td>
+            <td>23.8</td>
+        </tr>
+        <tr>
+            <td class="pos-20">20</td>
+            <td>Atlético-GO</td>
+            <td>1</td>
+            <td>6</td>
+            <td>0</td>
+            <td>1</td>
+            <td>5</td>
+            <td>3</td>
+            <td>9</td>
+            <td>-6</td>
+            <td>5.6</td>
+        </tr>
+        <br>
+        <tr>
+           Azul Escuro: Taça Libertadores; Azul: Pré-Libertadores; Amarelo: Sul-Americana; Vermelho: Rebaixados; P: Pontos; J: Jogos; V: Vitórias; E: Empates; D: Derrotas; GP: Gols Pró; GC: Gols Contra; SG: Saldo de Gols (%) Aproveitamento
+        </tr>
+        
+
+        
+    
